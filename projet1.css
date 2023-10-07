@@ -1,0 +1,175 @@
+@media(min-width:376px)
+{
+    
+
+body{display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    position: absolute;
+    left:50%;
+    right: 50%;
+    bottom: 50%;
+    top:50%;
+
+
+}
+.evreythink{
+    border-radius: 10px;
+    display: flex;
+     width: 600px;
+     height: 500px;
+    background-color: rgb(255, 255, 255);
+    
+    border-radius: 10px;
+  
+}
+img{
+    
+    align-self: flex-start;
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px; ;
+
+}
+.Perfum{
+    font-weight: 500;
+    letter-spacing: 10px;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+.title{
+    font-weight:bolder;
+    font-family:serif;
+    padding: 22px 0;
+    font-size: 37px;
+    line-height: 100%;
+    color: hsl(212, 21%, 14%)
+}
+.description{
+    width: 229px;
+    letter-spacing: 1px;
+    padding-bottom: 22px;
+    line-height: 25px;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+button{
+    
+    border-radius:10px ;
+    border: 0px solid transparent;
+    width: 100%;
+    background-color:hsl(158, 36%, 37%) ;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+.parole{
+    width: 300px;
+    font-family: "Montserrat";
+    padding: 40px 40px 40px 30px;
+   
+}
+.price{
+    display: flex;
+    padding-bottom:22px;
+    font-family: 'Fraunces', serif;
+    font-size: 33px;
+    color:hsl(158, 36%, 37%);
+     width: 100%;
+}
+s{  padding-left: 20px;
+     align-self:center;
+    color:hsl(228, 12%, 48%);
+    font-size: 14px ;
+}
+}
+@media(max-width:375px){
+    
+    body{
+    background-color: hsl(30, 38%, 92%); }
+    
+
+.image1{
+    visibility: hidden;
+
+}
+.evreythink{ 
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 650px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 30px 10px;
+    background-size: 321px;
+    background-image: url(../img/image-product-mobile.jpg);
+     background-repeat: no-repeat;
+     background-position: top;
+     
+
+}
+.parole{
+
+    font-family: "Montserrat";
+    position: relative;
+    top:-282px;
+
+
+}
+
+.Perfum{
+    padding-top: 30px;
+    font-weight: 500;
+    letter-spacing: 10px;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+.title{
+   
+    font-weight:bolder;
+    font-family:serif;
+    padding-top: 10px;
+    padding-right: 30px;
+    font-size: 34px;
+    line-height: 100%;
+    color: hsl(212, 21%, 14%)
+}
+
+.description{
+    margin-top: 10px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+
+.price{
+    padding-top: 10px;
+    
+    display: flex;
+    padding-bottom:22px;
+    font-family: 'Fraunces', serif;
+    font-size: 33px;
+    color:hsl(158, 36%, 37%);
+     width: 100%;
+}
+
+s{ 
+     padding-left: 20px;
+    align-self:center;
+   color:hsl(228, 12%, 48%);
+   font-size: 14px ;
+}
+
+button{
+  
+    width: 100%;
+    border: 0px solid transparent;
+    background-color:hsl(158, 36%, 37%) ;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+}
